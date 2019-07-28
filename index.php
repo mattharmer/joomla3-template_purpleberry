@@ -9,28 +9,44 @@
   </head>
   <body>
     <div class="container">
-    <nav>
-      <title>Craze Dance Academy</title>
-      <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Enrolment</li>
-          <li>Classes</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-      <header>
-        <img src="" alt="">
-        <h1>ENROL NOW FOR 2019 CLASSES</h1>
-        <a href="#">Learn More</a>
-      </header>
+      <div class="container_image">
+        <nav>
+          <div class="title">
+            <h1>Craze Dance Academy</h1>
+          </div>
+          <div class="hbmenu">
+            <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Enrolment</li>
+              <li>Classes</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        </nav>
+        <header>
+          <h2>ENROL NOW FOR 2019 CLASSES</h2>
+          <a href="#">Learn More</a>
+        </header>
+      </div>
       <footer>
-        <ul>
-          <li><a href="../facebook.svg">Facebook</a></li>
-          <li><a href="../instagram.svg">Instagram</a></li>
-          <li><a href="../twitter.svg">Twitter</a></li>
-          <li><a href="../youtube.svg">Youtube</a></li>
-        </ul>
+        <div class="social">
+          <ul>
+            <li><a href="#"><img src="images/facebook.svg" alt="Facebook"></a></li>
+            <li><a href="#"><img src="images/instagram.svg" alt="Instagram"></a></li>
+            <li><a href="#"><img src="images/twitter.svg" alt="Twitter"></a></li>
+            <li><a href="#"><img src="images/youtube.svg" alt="Youtube"></a></li>
+          </ul>
+        </div>
+        <div class="menu">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Enrolment</li>
+            <li>Classes</li>
+            <li>Contact</li>
+          </ul>
+        </div>
       </footer>
     </div>
   </body>

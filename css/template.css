@@ -1,0 +1,22 @@
+h1 {
+font-family: 'Pacifico', cursive;
+}
+
+h2 {
+font-family: 'Raleway', sans-serif;
+}
+
+
+footer {
+  background-color: #D160BE;
+}
+
+footer img {
+  width: 32px;
+  margin: 10px;
+}
+
+.container_image {
+  color: #fff;
+  background-image: url("../images/mainbg-image.png");
+}
