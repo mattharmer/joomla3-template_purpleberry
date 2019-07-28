@@ -12,26 +12,28 @@ p, li, a {
 }
 
 h1 {
-font-family: 'Pacifico', cursive;
-font-size: 0.8em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.9em;
 }
 
 h2 {
-font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 title {
-
+ flex: 1;
 }
 
 nav {
   height:48px;
   background-color: #D160BE;
   opacity: 0.7;
+  display: flex;
+  justify-content: space-between;
 }
 
 nav h1 {
-  padding: 10px 0 0 10px;
+  padding: 13px 0 0 14px;
 }
 
 header {
@@ -73,6 +75,14 @@ footer img {
   margin: 15px 4px 10px 4px;
 }
 
+.hbmenu {
+  padding: 12px 14px 0 0;
+}
+
+.hbmenu div {
+  flex: 1;
+}
+
 .social {
   display: flex;
   justify-content: center;
@@ -93,6 +103,11 @@ footer img {
   margin: 1em .4em 1em .4em;
   flex: 1;
   display: inline-block;
+}
+.menu li:hover {
+font-weight: bold;
+text-decoration: underline;
+cursor: pointer;
 }
 
 .container_image {
