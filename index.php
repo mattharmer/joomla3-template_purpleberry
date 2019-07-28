@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <title>Craze Dance Academy</title>
     <link rel="stylesheet" href="css/template.css">
-    <meta name="viewport" content="width=device-width"> <!--Make @media work in dev tools -->
-    <link href="https://fonts.googleapis.com/css?family=Pacifico|Raleway&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Raleway:400,900&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="container">
@@ -14,6 +14,7 @@
           <div class="title">
             <h1>Craze Dance Academy</h1>
           </div>
+          <!--
           <div class="hbmenu">
             <ul>
               <li>Home</li>
@@ -23,6 +24,7 @@
               <li>Contact</li>
             </ul>
           </div>
+        -->
         </nav>
         <header>
           <h2>ENROL NOW FOR 2019 CLASSES</h2>

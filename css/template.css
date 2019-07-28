@@ -1,9 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
 h1 {
 font-family: 'Pacifico', cursive;
+font-size: 0.8em;
 }
 
 h2 {
 font-family: 'Raleway', sans-serif;
+}
+
+nav {
+  height:48px;
+  background-color: #D160BE;
+  opacity: 0.7;
+}
+
+header {
+  text-align: right;
+  padding: 0 1em 2em 1em ;
+  position: absolute;
+  bottom: 0;
+  opacity: 0.7;
+}
+
+header h2 {
+  vertical-align: bottom;
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+header a {
+  font-family: 'Pacifico', cursive;
+  color: #fff;
+  padding: .4em 1em .4em 1em;
+  border-style: solid;
+  border-radius: 30px;
+  border-width: 6px;
 }
 
 
@@ -17,6 +57,12 @@ footer img {
 }
 
 .container_image {
-  color: #fff;
   background-image: url("../images/mainbg-image.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  position: relative
 }
