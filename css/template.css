@@ -7,6 +7,10 @@ html, body {
   height: 100%;
 }
 
+p, li, a {
+  font-family: 'Raleway', sans-serif;
+}
+
 h1 {
 font-family: 'Pacifico', cursive;
 font-size: 0.8em;
@@ -16,22 +20,31 @@ h2 {
 font-family: 'Raleway', sans-serif;
 }
 
+title {
+
+}
+
 nav {
   height:48px;
   background-color: #D160BE;
   opacity: 0.7;
 }
 
+nav h1 {
+  padding: 10px 0 0 10px;
+}
+
 header {
   text-align: right;
-  padding: 0 1em 2em 1em ;
-  position: absolute;
-  bottom: 0;
+  padding: 0;
+  margin: 2em;
   opacity: 0.7;
+  bottom: 0;
+  position: absolute;
 }
 
 header h2 {
-  vertical-align: bottom;
+  display: inline-block;
   font-weight: bold;
   font-size: 2em;
   margin-bottom: 1em;
@@ -46,14 +59,40 @@ header a {
   border-width: 6px;
 }
 
+a {
+  text-decoration: none;
+}
 
 footer {
+  color: #fff;
   background-color: #D160BE;
 }
 
 footer img {
   width: 32px;
-  margin: 10px;
+  margin: 15px 4px 10px 4px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social li {
+  flex: 1;
+  display:inline-block;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+  font-size: 0.8em;
+  margin: 1em .4em 1em .4em;
+  flex: 1;
+  display: inline-block;
 }
 
 .container_image {
@@ -64,5 +103,4 @@ footer img {
   background-size: cover;
   background-attachment: fixed;
   color: #fff;
-  position: relative
 }
