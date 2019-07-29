@@ -11,21 +11,20 @@
     <div class="container">
       <div class="container_image">
         <header>
+          <div class="logo">
             <h1>Craze Dance Academy</h1>
-<!--
-        <nav>
-          <div class="hbmenu">
-            <ul class="hide-mobile">
-              <li>Home</li>
-              <li>About</li>
-              <li>Enrolment</li>
-              <li>Classes</li>
-              <li>Contact</li>
-            </ul>
           </div>
-        </nav>
--->
+          <nav>
+              <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Enrolment</li>
+                <li>Classes</li>
+                <li>Contact</li>
+              </ul>
+          </nav>
         </header>
+      </div>
       <div class="content-img-text">
           <h2>ENROL NOW FOR 2019 CLASSES</h2>
           <a href="#">Learn More</a>
