@@ -10,28 +10,27 @@
   <body>
     <div class="container">
       <div class="container_image">
-        <nav>
-          <div class="title">
+        <header>
             <h1>Craze Dance Academy</h1>
-          </div>
-        <div class="hbmenu">
-             <label for="toggle">&#9776;</label>
-             <!--
-            <ul>
+<!--
+        <nav>
+          <div class="hbmenu">
+            <ul class="hide-mobile">
               <li>Home</li>
               <li>About</li>
               <li>Enrolment</li>
               <li>Classes</li>
               <li>Contact</li>
             </ul>
-          -->
-        </div>
+          </div>
         </nav>
-        <header>
+-->
+        </header>
+      <div class="content-img-text">
           <h2>ENROL NOW FOR 2019 CLASSES</h2>
           <a href="#">Learn More</a>
-        </header>
       </div>
+    </div>
       <footer>
         <div class="social">
           <ul>
