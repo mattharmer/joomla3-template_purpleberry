@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-p, li, a, h1, h2 {
+p, li, a {
   font-family: 'Raleway', sans-serif;
   color: #fff;
 }
@@ -17,18 +17,22 @@ li {
 }
 
 h1 {
+  font-family: 'Pacifico', cursive;
   font-size: 0.9em;
+  color: #fff;
 }
 
 h2 {
+  font-family: 'Raleway', sans-serif;
   font-size: 3em;
+  color: #fff;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  height:48px;
+  text-align: center;
+  height:56px;
   background-color: #D160BE;
   opacity: 0.7;
 }
@@ -89,16 +93,10 @@ footer img {
   display:inline-block;
 }
 
-.menu {
-  display: flex;
-  justify-content: center;
-}
-
 .menu li {
   font-size: 0.8em;
-  margin: 1em .4em 1em .4em;
   flex: 1;
-  display: inline-block;
+  color: #000;
 }
 
 .menu li:hover {
@@ -106,20 +104,19 @@ footer img {
   cursor: pointer;
 }
 
-
-
 .logo-text {
   font-size: 1em;
   font-weight: 700;
   color: #0E5077;
-  height: 48px;
-  line-height: 48px;
+  height: 56px;
+  line-height: 56px;
   margin: 0;
   padding: 0 16px;
-  display: inline-block;
 }
 
 .menu {
+  display: flex;
+  justify-content: center;
   position: absolute;
   top: 0;
   right: 0;
@@ -137,13 +134,14 @@ footer img {
   transform: translateX(0);
 }
 
-.menu li {
-  display: block;
-  padding: 0 14px;
-}
-
-.menu li > a {
+.menu li a {
   border: none;
+  text-decoration: none;
+  color: #0E5077;
+  padding: 0 14px;
+  display: block;
+  height: 48px;
+
 }
 
 .menu li > a:hover {
@@ -151,12 +149,12 @@ footer img {
 }
 
 .menu li.close {
-  display: block;
   text-align: right;
-}
-
-.mobile-btn {
-  display: inline-block;
+  margin: 0;
+  padding: 2px 16px 0 0;
+  font-size: 36px;
+  color: #646464;
+  cursor: pointer;
 }
 
 .overlay {
@@ -175,17 +173,8 @@ footer img {
 }
 
 .mobile-btn {
-  float: right;
+  display: inline-block;
   cursor: pointer;
+  padding: 16px 16px 0 0;
   -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
-}
-
-.menu li.close {
-  display: block;
-  text-align: right;
-  color: #000;
-}
-
-.menu li {
-  color: #000;
 }

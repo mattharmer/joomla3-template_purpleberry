@@ -18,10 +18,10 @@
           <nav class="main-nav">
               <ul class="menu">
                 <li class="close">&times;</li>
-                <li>About</li>
-                <li>Enrolment</li>
-                <li>Classes</li>
-                <li>Contact</li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Enrolment</a></li>
+                <li><a href="#">Classes</a></li>
+                <li><a href="#">Contact</a></li>
               </ul>
               <span class="mobile-btn">☰</span>
           <div class="overlay"></div>
