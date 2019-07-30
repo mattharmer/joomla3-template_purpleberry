@@ -108,3 +108,84 @@ footer img {
 
 
 
+.logo-text {
+  font-size: 1em;
+  font-weight: 700;
+  color: #0E5077;
+  height: 48px;
+  line-height: 48px;
+  margin: 0;
+  padding: 0 16px;
+  display: inline-block;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+  background-color: #FFF;
+  width: 300px;
+  height: 100%;
+  z-index: 3;
+  transform: translateX(300px);
+  border-left: 1px solid #e5e5e5;
+}
+
+.menu.open {
+  display: block;
+  transform: translateX(0);
+}
+
+.menu li {
+  display: block;
+  padding: 0 14px;
+}
+
+.menu li > a {
+  border: none;
+}
+
+.menu li > a:hover {
+  border: none;
+}
+
+.menu li.close {
+  display: block;
+  text-align: right;
+}
+
+.mobile-btn {
+  display: inline-block;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  z-index: -1;
+}
+
+.overlay.open {
+  z-index: 1;
+  opacity: 1;
+}
+
+.mobile-btn {
+  float: right;
+  cursor: pointer;
+  -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+}
+
+.menu li.close {
+  display: block;
+  text-align: right;
+  color: #000;
+}
+
+.menu li {
+  color: #000;
+}

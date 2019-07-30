@@ -4,26 +4,30 @@
     <meta charset="utf-8">
     <title>Craze Dance Academy</title>
     <link rel="stylesheet" href="css/template.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Raleway:400,900&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="container">
       <div class="container_image">
+
         <header>
-          <div class="logo">
+          <div class="logo-text">
             <h1>Craze Dance Academy</h1>
           </div>
-          <nav>
-              <ul>
-                <li>Home</li>
+          <nav class="main-nav">
+              <ul class="menu">
+                <li class="close">&times;</li>
                 <li>About</li>
                 <li>Enrolment</li>
                 <li>Classes</li>
                 <li>Contact</li>
               </ul>
+              <span class="mobile-btn">☰</span>
+          <div class="overlay"></div>
           </nav>
         </header>
+
       </div>
       <div class="content-img-text">
           <h2>ENROL NOW FOR 2019 CLASSES</h2>
@@ -50,5 +54,6 @@
         </div>
       </footer>
     </div>
+    <script src="js/script.js"></script>
   </body>
 </html>
