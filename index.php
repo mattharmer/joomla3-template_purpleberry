@@ -43,7 +43,7 @@
             <li><a href="#"><img src="images/youtube.svg" alt="Youtube"></a></li>
           </ul>
         </div>
-        <div class="menu">
+        <div class="bottom-menu">
           <ul>
             <li>Home</li>
             <li>About</li>
