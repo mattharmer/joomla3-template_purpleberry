@@ -18,6 +18,6 @@
 	</files>
 	<positions>
 		<top>navigation</top>
-		<bottom>footer</bottom>
+		<bottom>footer</bottom> 
 	</positions>
 </extension>
