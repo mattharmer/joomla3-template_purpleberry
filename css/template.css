@@ -1,11 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Raleway', sans-serif;
 }
 
 p, li, a {
   font-family: 'Raleway', sans-serif;
-  color: #fff;
+  color: rgb(2, 0, 0);
 }
 
 a {
@@ -187,4 +188,8 @@ footer img {
 .social li {
   flex: 1;
   display:inline-block;
+}
+
+.content {
+  color: #000;
 }

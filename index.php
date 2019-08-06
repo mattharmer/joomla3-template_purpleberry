@@ -13,12 +13,10 @@ xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" 
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Raleway:400,900&display=swap" rel="stylesheet">
   </head>
   <body>
-  <jdoc:include type="modules" name="top" /> 
-  <jdoc:include type="modules" name="bottom" />
-
+    <jdoc:include type="modules" name="top" /> 
+    <jdoc:include type="modules" name="bottom" />
     <div class="container">
       <div class="container_image">
-
         <header>
           <div class="logo-text">
             <h1>Craze Dance Academy</h1>
@@ -35,12 +33,14 @@ xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" 
           <div class="overlay"></div>
           </nav>
         </header>
-
       </div>
       <div class="content-img-text">
           <h2>ENROL NOW FOR 2019 CLASSES</h2>
           <a href="#">Learn More</a>
       </div>
+    </div>
+    <div class="content">    
+      <jdoc:include type="component" />
     </div>
       <footer class="bottom">
         <div class="social">
@@ -62,6 +62,11 @@ xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" 
         </div>
       </footer>
     </div>
-    <script src="js/script.js"></script>
+    <script>
+    <?php
+    $document = JFactory::getDocument();
+    $document->addScript('templates/PurpleBerry/js/script.js');
+    ?>
+    </script>
   </body>
 </html>
