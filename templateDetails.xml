@@ -14,16 +14,10 @@
 		<filename>templateDetails.xml</filename>
 		<folder>images</folder>
 		<folder>css</folder>
+		<folder>js</folder>
 	</files>
 	<positions>
-		<position>breadcrumb</position>
-		<position>left</position>
-		<position>right</position>
-		<position>top</position>
-		<position>user1</position>
-		<position>user2</position>
-		<position>user3</position>
-		<position>user4</position>
-		<position>footer</position>
+		<top>navigation</top>
+		<bottom>footer</bottom>
 	</positions>
 </extension>
