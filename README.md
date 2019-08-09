@@ -2,6 +2,7 @@
 
 ## General Info
 This project is being developed for my sisters dance website. I am improving my skill set while updating the sites I manage to Joomla 3.
+I am still in early development.
 
 ## Technologies
 - Joomla 3
