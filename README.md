@@ -1,2 +1,4 @@
-# joomla3_Templates
-All my Joomla 3 Templates
+# joomla3_Template made for my sisters Dance Site.
+
+More info soon.
+
