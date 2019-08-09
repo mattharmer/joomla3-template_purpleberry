@@ -17,7 +17,7 @@
 		<folder>js</folder>
 	</files>
 	<positions>
-		<top>navigation</top>
-		<bottom>footer</bottom>
+		<position>navigation</position>
+		<position>footer</position>
 	</positions>
 </extension>

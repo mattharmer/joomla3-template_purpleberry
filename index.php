@@ -13,8 +13,6 @@ xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" 
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Raleway:400,900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <jdoc:include type="modules" name="top" /> 
-    <jdoc:include type="modules" name="bottom" />
     <div class="container">
       <div class="container_image">
         <header>
@@ -24,10 +22,7 @@ xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" 
           <nav class="top">
               <ul class="menu">
                 <li class="close">&times;</li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Enrolment</a></li>
-                <li><a href="#">Classes</a></li>
-                <li><a href="#">Contact</a></li>
+                <jdoc:include type="modules" name="navigation" /> 
               </ul>
               <span class="mobile-btn">☰</span>
           <div class="overlay"></div>
@@ -62,11 +57,13 @@ xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" 
         </div>
       </footer>
     </div>
+
     <script>
     <?php
     $document = JFactory::getDocument();
     $document->addScript('templates/PurpleBerry/js/script.js');
     ?>
     </script>
+
   </body>
 </html>
