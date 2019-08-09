@@ -1,4 +1,4 @@
-# joomla3 Template - PurpleBerry
+# Joomla3 Template - Purpleberry
 
 ## General Info
 This project is being developed for my sisters dance website. I am improving my skill set while updating the sites I manage to Joomla 3.
