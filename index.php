@@ -23,14 +23,15 @@ xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" 
           </ul>
         </header>
 
-        <div class="container_image">
-
+<!-- This section should be made into a slideshow module (future component) for joomla -->
+    <div class="container_image">
       <div class="content-img-text">
           <h2>ENROL NOW FOR 2019 CLASSES</h2>
           <a href="#">Learn More</a>
       </div>
-      </div>
-      
+    </div>
+<!---->
+
     </div>
     <div class="content">    
       <jdoc:include type="component" />
