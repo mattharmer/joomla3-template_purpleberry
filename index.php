@@ -14,24 +14,23 @@ xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" 
   </head>
   <body>
     <div class="container">
-      <div class="container_image">
-
         <header class="header">
-
           <a href="" class="logo">Craze Dance Academy</a>
           <input class="menu-btn" type="checkbox" id="menu-btn" />
           <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
           <ul class="menu">
             <jdoc:include type="modules" name="navigation" /> 
           </ul>
-
         </header>
 
-      </div>
+        <div class="container_image">
+
       <div class="content-img-text">
           <h2>ENROL NOW FOR 2019 CLASSES</h2>
           <a href="#">Learn More</a>
       </div>
+      </div>
+      
     </div>
     <div class="content">    
       <jdoc:include type="component" />
@@ -56,13 +55,5 @@ xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" 
         </div>
       </footer>
     </div>
-
-    <script>
-    <?php
-    $document = JFactory::getDocument();
-    $document->addScript('templates/PurpleBerry/js/script.js');
-    ?>
-    </script>
-
   </body>
 </html>
