@@ -15,19 +15,18 @@ xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" 
   <body>
     <div class="container">
       <div class="container_image">
-        <header>
-          <div class="logo-text">
-            <h1>Craze Dance Academy</h1>
-          </div>
-          <nav class="top">
-              <ul class="menu">
-                <li class="close">&times;</li>
-                <jdoc:include type="modules" name="navigation" /> 
-              </ul>
-              <span class="mobile-btn">☰</span>
-          <div class="overlay"></div>
-          </nav>
+
+        <header class="header">
+
+          <a href="" class="logo">Craze Dance Academy</a>
+          <input class="menu-btn" type="checkbox" id="menu-btn" />
+          <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+          <ul class="menu">
+            <jdoc:include type="modules" name="navigation" /> 
+          </ul>
+
         </header>
+
       </div>
       <div class="content-img-text">
           <h2>ENROL NOW FOR 2019 CLASSES</h2>
